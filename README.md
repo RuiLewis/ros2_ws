@@ -14,12 +14,10 @@ ROS2 repository for assignment
   * source ~/.bashrc
 
 ## クイックトライアル
-* 端末を2つ用意する
-  * : ( cd ~/ros2_ws/ && colcon build )
-  * 端末1：ros2 run mypkg talker
-  * 端末2: ros2 run mypkg listener
-  * 端末2: Listen: 10 と出力
-  * 尚，talkerとlistenerを立ち上げる順番を入れ替えても同じ出力結果を得られる．
+  * ( cd ~/ros2_ws/ && colcon build )
+  * source ~/.bashrc
+  * talk_listen.launch.py
+  * Listen: 10
 
 ## テスト
 * 下記URLのリポジトリで行ったテストは/ros2_ws/src/mypkg以降の内容についてである．
